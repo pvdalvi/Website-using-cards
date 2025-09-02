@@ -14,6 +14,9 @@
     .text-justify {
       text-align: justify;
     }
+    /* Optional: make check/cross icons colored */
+    .check { color: green; font-weight: bold; }
+    .cross { color: red; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -222,6 +225,53 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- Features Comparison Table -->
+    <div class="table-responsive mt-5">
+      <h3 class="text-center mb-3">Compare Features</h3>
+      <table class="table table-bordered text-center align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>Features</th>
+            <th>Basic</th>
+            <th>Standard</th>
+            <th>Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Core Features</td>
+            <td class="check">✔</td>
+            <td class="check">✔</td>
+            <td class="check">✔</td>
+          </tr>
+          <tr>
+            <td>Advanced Tools</td>
+            <td class="cross">✖</td>
+            <td class="check">✔</td>
+            <td class="check">✔</td>
+          </tr>
+          <tr>
+            <td>Customization</td>
+            <td class="cross">✖</td>
+            <td>Limited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>Support</td>
+            <td>Email Only</td>
+            <td>Priority</td>
+            <td>24/7 Dedicated</td>
+          </tr>
+          <tr>
+            <td>Users Allowed</td>
+            <td>1</td>
+            <td>Up to 10</td>
+            <td>Unlimited</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
